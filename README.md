@@ -11,16 +11,17 @@ Group Project - README Template
 
 ## Overview
 ### Description
-Wazooly is a mobile application that will track when a child's parent is there to pick them up.
+Wazooly is a mobile application that will track when a child's guardian is there to pick them up.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category: Artificial Intelligence**
-- **Mobile: Android**
+- **Category:** Artificial Intelligence
+- **Mobile:** This mobile application will use Computer Vision and Natural Language Processing to track when a guardian is at the 
+              location to pick up their child(ren).
 - **Story:**
 - **Market: **
 - **Habit:**
-- **Scope:**
+- **Scope:** 
 
 ## Product Spec
 
