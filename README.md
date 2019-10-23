@@ -11,12 +11,12 @@ Group Project - README Template
 
 ## Overview
 ### Description
-Wazooly is a mobile application that will track when a child's guardian is there to pick them up.
+Wazooly is a mobile application that will track when a child's parent is there to pick them up.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:** Artificial Intelligence
-- **Mobile:** This application will use Computer Vision and Natural Language Processing to check in the guardian (in real-time) when                   they have arrived to pick up their child(ren).
+- **Category: Artificial Intelligence**
+- **Mobile: Android**
 - **Story:**
 - **Market: **
 - **Habit:**
@@ -28,9 +28,12 @@ Wazooly is a mobile application that will track when a child's guardian is there
 
 **Required Must-have Stories**
 
-* Computer Vision used translates images into letters/words; it will be used to translate our license plates into letters.
-* Database used to house the child/parent's information for the child to be picked up.
-* Natural Language processing will be used to process the difference of the States on the license plates.
+* User1/User2 (Chaperone 1/Chaperone 2) opens application and enters log in credentials.
+* User1 (Chaperone1) will see a camera on the screen, prepping for the picture of the license plate.
+* (Backend) The picture would then be sent to the backend through ComputerVision, for the letters/numbers to be deciphered.
+* If the license plate is found in the database, the User1 (Chaperone 1 ) will be sent to a screen with a green check mark, if not they will be shown a red X.
+* User2 (Chaperone 2) will see a queue of the child's information, the details of the car, and a picture of the driver.
+* Once the car has taken the child, User 2 (Chaperone 2) will check the column and dequeue the item in the list.
 
 **Optional Nice-to-have Stories**
 
