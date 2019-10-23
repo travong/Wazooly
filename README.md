@@ -1,7 +1,7 @@
 Group Project - README Template
 ===
 
-# WAZOOLY
+# Wazooly
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -15,10 +15,10 @@ Wazooly is a mobile application that will track when a child's parent is there t
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
+- **Category: Artificial Intelligence**
+- **Mobile: Android**
 - **Story:**
-- **Market:**
+- **Market: **
 - **Habit:**
 - **Scope:**
 
@@ -28,7 +28,7 @@ Wazooly is a mobile application that will track when a child's parent is there t
 
 **Required Must-have Stories**
 
-* ComputerVision used translates images into letters/words; it will be used to translate our license plates into letters.
+* Computer Vision used translates images into letters/words; it will be used to translate our license plates into letters.
 * Database used to house the child/parent's information for the child to be picked up.
 * Natural Language processing will be used to process the difference of the States on the license plates.
 
