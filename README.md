@@ -15,8 +15,8 @@ Wazooly is a mobile application that will track when a child's guardian is there
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category: Artificial Intelligence**
-- **Mobile: This application will use Computer Vision and Natural Language Processing to check in the guardian (in real-time) when they             have arrived to pick up their child(ren).**
+- **Category:** Artificial Intelligence
+- **Mobile:** This application will use Computer Vision and Natural Language Processing to check in the guardian (in real-time) when                   they have arrived to pick up their child(ren).
 - **Story:**
 - **Market: **
 - **Habit:**
