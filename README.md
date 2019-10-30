@@ -31,23 +31,29 @@ Wazooly is a mobile application that will track when a child's guardian is there
 * User1/User2 (Chaperone 1/Chaperone 2) opens application and enters log in credentials.
 * User1 (Chaperone1) will see a camera on the screen, prepping for the picture of the license plate.
 * (Backend) The picture would then be sent to the backend through ComputerVision, for the letters/numbers to be deciphered.
-* If the license plate is found in the database, the User1 (Chaperone 1 ) will be sent to a screen with a green check mark, if not they will be shown a red X.
-* User2 (Chaperone 2) will see a queue of the child's information, the details of the car, and a picture of the driver.
+* If the license plate is found in the database, the User1 (Chaperone 1 ) will be sent to a screen with a green check mark, if not they will be shown a red X. If there is an error reading/deciphering the license plate number, an error message will prompt Chaperone1 to manually enter the license plate number.
+* User2 (Chaperone 2) will see a queue of the childrens' information associated with the guardian and license plate number previously scanned, the details of the car, and a picture of the driver.
 * Once the car has taken the child, User 2 (Chaperone 2) will check the column and dequeue the item in the list.
 
 **Optional Nice-to-have Stories**
+* The ability for guardians to be added on the fly for emergencies.
 
-* [fill in your required user stories here]
-* ...
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login Screen
+   * Users can login
+
+* Role Selection
+   * Users will chose to be Chaperone1 (License Plate Scanner) or Chaperone2 (Queue Management)
+   
+* Chaperone1 Role View (License Plate Scanner)
+   * Displays a camera icon that will open the camera for scanning license plates.
+   
+* Chaperone2 Role View (Queue Management)
+   * Displays queued verified pick ups.
+   * Within each queued item will show associated guardian names and pictures, childs name and picture, vehicle description and scanned license plate number.
+   * On each queued item will also be a "dequeue" button to clear an item once a child is picked up.
 
 ### 3. Navigation
 
