@@ -16,12 +16,11 @@ Wazooly is a mobile application that will track when a child's guardian is there
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Artificial Intelligence
-- **Mobile:** This mobile application will use Computer Vision and Natural Language Processing to track when a guardian is at the 
-              location to pick up their child(ren).
-- **Story:**
-- **Market: **
-- **Habit:**
-- **Scope:** 
+- **Mobile:** This mobile application will use Computer Vision and Natural Language Processing to track when a guardian is at the location to pick up their child(ren).
+- **Story:** Captures a picture of the vehicle license plate and logs in the vehicle as present to pick up the child associated with the vehicle license plate.
+- **Market:** This application is for schools for that want to simplify their guardian - child pickup routine.
+- **Habit:** This app could be used as often or unoften as the user wanted depending on how much the school wants to use the app.
+- **Scope:** First, we will start with a few schools and test the app, collect feedback to enhance the app, then perhaps this could become an app that is used in schools around the world.
 
 ## Product Spec
 
