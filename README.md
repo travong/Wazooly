@@ -59,18 +59,20 @@ Wazooly is a mobile application that will track when a child's guardian is there
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* There is no tab navigation
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login Screen
+   * Chaperone Role 1 or 2
+   
+* Chaperone1 Role (License Plate Scanner)
+   * License Plate Scanner
+   * Enter license plate manually
+  
+* Chaperone2 Role (Queue Management)
+   * Verified Queue
+   * More information on queued items
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
