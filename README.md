@@ -1,4 +1,4 @@
-Group Project - README Template
+Wazooly - README
 ===
 
 # Wazooly
@@ -84,7 +84,6 @@ Wazooly is a mobile application that will track when a child's guardian is there
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
 | **Property**  | **Type** | **Description** |
 | ------------- | ------------- | ------------- |
