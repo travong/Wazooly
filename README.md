@@ -86,7 +86,7 @@ Wazooly is a mobile application that will track when a child's guardian is there
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-<img src="data_model_wazooly.PNG" width=600>
+<img src="data_model_wazooly." width=600>
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
