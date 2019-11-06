@@ -102,5 +102,15 @@ Wazooly is a mobile application that will track when a child's guardian is there
 
 ### Networking
 - [Add list of network requests by screen ]
+
+let query = PFQuery(className:"LoginScreen")
+query.whereKey("User1", equalTo: currentUser)
+query.findObjectsInBackground { (Plate_Number: [PFObject]?, error: Error?) in
+   if let error = error { 
+      print("Unregistered Vehicle.")
+   } else if let Plate_Number = Plate_Number {
+      print("Good to Go!")
+   }
+}
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
