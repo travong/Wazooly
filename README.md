@@ -86,7 +86,21 @@ Wazooly is a mobile application that will track when a child's guardian is there
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-<img src="data_model_wazooly.PNG" width=600>
+| **Property**  | **Type** | **Description** |
+| ------------- | ------------- | ------------- |
+| Student_ID  | Number  | Unique id for the Student |
+| Student_FName  | String  | Student First Name |
+| Student_LName  | String  | Student Last Name |
+| Plate_Number  | String  | Vehicle License associated with the Student  |
+| Plate_State  | String  | State assigned to the license plate |
+| Car_Yr  | Number  | Year of the car associated with the license plate |
+| Car_Color  | String  | Color of the car associated with the license plate |
+| Car_Model  | String  | Model of the car associated with the license plate |
+| Car_Pic  | File  | Picture of the car associated with the license plate |
+| Guardian_FName  | String  | Guardian First Name associated with the student |
+| Guardian_LName  | String  | Guardian Last Name associated with the student |
+| Guardian_Pic | File  | Guardian driver’s license picture associated with the student |
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
